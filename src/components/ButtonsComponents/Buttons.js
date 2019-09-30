@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import hButton from './hButton';
 import axios from 'axios';
-import { cards } from './data';
+// import { cards } from './data';
 
 //main child components
 
