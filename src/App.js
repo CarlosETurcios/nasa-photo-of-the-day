@@ -1,12 +1,15 @@
-import React from "react";
-import "./App.css";
+import React from 'react';
+import './App.css';
+import NasaPicInfo from './NasaPicInfo';
+import { Button } from 'reactstrap';
 
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
       <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
+        <NasaPicInfo />
+        {/* Read through the instructions in the README.md file to build your NASA
+        app! Have fun 🚀! */}
       </p>
     </div>
   );
